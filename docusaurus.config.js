@@ -7,11 +7,11 @@ module.exports = {
   /**
    * 必须配置，是你的GitHub账号，执行 npm run deploy 时会用到
    */ 
-  organizationName: 'alanwei43',
+  organizationName: 'alan-wei',
   /**
    * 必须配置，是你的博客部署到的那个仓库地址，执行 npm run deploy 时会用到
    */ 
-  projectName: 'alanwei43.github.io', 
+  projectName: 'alan-wei.github.io', 
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
