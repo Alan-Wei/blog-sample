@@ -2,13 +2,20 @@
 module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+
+  url: "https://alan-wei.github.io/", // 可选配置
+  /**
+   * 必须配置，是你的GitHub账号，执行 npm run deploy 时会用到
+   */ 
+  organizationName: 'alanwei43',
+  /**
+   * 必须配置，是你的博客部署到的那个仓库地址，执行 npm run deploy 时会用到
+   */ 
+  projectName: 'alanwei43.github.io', 
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
